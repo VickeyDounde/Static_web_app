@@ -90,7 +90,7 @@ def lambda_handler(event, context):
 ### Step 5: Create DynamoDB Table
 
 1. **Create Table**:
-    - Go to the DynamoDB console and create a table named `registration-table`.
+    - Go to the DynamoDB console and create a table named `Static_web_app`.
     - Set `id` as the primary key.
 
 ### Step 6: Set Up IAM Role
