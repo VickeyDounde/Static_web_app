@@ -31,7 +31,7 @@ Add a bucket policy to allow public read access to the objects in your bucket.
         }
     ]
 }
-
+```
 # Updating the markdown content with the specified sections for Step 3 and Step 4
 
 additional_content = """
