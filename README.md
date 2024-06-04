@@ -1,6 +1,3 @@
-# Static_web_app
-just a simple registration form
-
 # Creating a markdown summary for hosting a static website in AWS with S3, Route 53, Lambda, and DynamoDB
 
 summary_content_static_website = """
