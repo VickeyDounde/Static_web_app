@@ -56,7 +56,7 @@ import boto3
 import uuid
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('registration-table')
+table = dynamodb.Table('Static_web_app')
 
 def lambda_handler(event, context):
     # Parse request body
