@@ -1,6 +1,3 @@
-# Creating a markdown summary for hosting a static website in AWS with S3, Route 53, Lambda, and DynamoDB
-
-summary_content_static_website = """
 # Hosting a Static Website in AWS
 
 This project involves hosting a static website on AWS using S3, Route 53, Lambda, and DynamoDB. The website includes HTML, CSS, and JavaScript files, and captures user registration data, storing it in DynamoDB via a Lambda function.
