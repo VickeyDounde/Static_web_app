@@ -32,9 +32,7 @@ Add a bucket policy to allow public read access to the objects in your bucket.
     ]
 }
 ```
-# Updating the markdown content with the specified sections for Step 3 and Step 4
 
-additional_content = """
 ### Step 3: Set Up Route 53 for Custom Domain
 
 1. **Create a Hosted Zone**:
@@ -87,10 +85,8 @@ def lambda_handler(event, context):
         },
         'body': json.dumps({'message': 'Registration successful'})
     }
+```
 
-# Adding the content for Step 5 and Step 6 along with website files to the markdown file
-
-additional_content_step5_6 = """
 ### Step 5: Create DynamoDB Table
 
 1. **Create Table**:
@@ -156,6 +152,6 @@ additional_content_step5_6 = """
     <script src="script.js"></script>
 </body>
 </html>
-
+```
 
 
